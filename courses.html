@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses offered</title>
+  <style>
+    .courseCard {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      width: 100%;
+      height: 70vh;
+      text-decoration: none;
+    }
+
+    .card {
+      width: 50%;
+      overflow-y: scroll;
+    }
+
+    .courseCard:link,
+    .courseCard:visited {
+      color: #535252;
+    }
+
+    .courseCard:hover .card {
+      background-color: #a22eb10f;
+    }
+
+    .practiceButton {
+      background-color: #1681f3;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    /* Customize button on hover if needed */
+    .practiceButton:hover {
+      background-color: #0056b3;
+    }
+
+    .footerDown {
+      color: #fff;
+      bottom: 0;
+      width: 100%;
+      background: #3e423c;
+      position: absolute;
+      padding: .2rem 0;
+
+    }
+
+    .footerDown p {
+      text-align: center;
+    }
+
+    .navbar-brand {
+      width: 100%;
+    }
+
+    .logoImg {
+      width: 15%;
+    }
+
+    .listGroup {
+      display: flex;
+      gap: 12px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand">
+        <img src="./assets/background.svg" class="logoImg" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="practice.html" role="button">Practice</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container mt-4">
+    <a class="courseCard" href="timeline.html">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Web Development Course</h5>
+          <p class="card-text">Learn the essentials of web development with our comprehensive course.</p>
+
+          <ul class="list-group list-group-flush">
+            <div class="listGroup">
+              <li class="list-group-item"><strong>Duration:</strong> 40 hours</li>
+              <li class="list-group-item"><strong>Modules:</strong> 10</li>
+            </div>
+          </ul>
+
+          <p class="card-text mt-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia consectetur commodi esse consequatur quod
+            dolore, iusto ad? Eius, doloribus. Magni exercitationem assumenda iste deserunt temporibus enim repellendus
+            libero tenetur ad.
+            Esse illo reprehenderit ipsum nisi atque laudantium ad architecto nam praesentium voluptatibus? Obcaecati
+            quisquam delectus praesentium voluptates nemo! Sapiente enim atque illo nisi quam nemo laborum quibusdam
+            expedita nostrum maiores!
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Web Development Course</h5>
+          <p class="card-text">Learn the essentials of web development with our comprehensive course.</p>
+
+          <ul class="list-group list-group-flush">
+            <div class="listGroup">
+              <li class="list-group-item"><strong>Duration:</strong> 40 hours</li>
+              <li class="list-group-item"><strong>Modules:</strong> 10</li>
+            </div>
+          </ul>
+
+          <p class="card-text mt-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia consectetur commodi esse consequatur quod
+            dolore, iusto ad? Eius, doloribus. Magni exercitationem assumenda iste deserunt temporibus enim repellendus
+            libero tenetur ad.
+            Esse illo reprehenderit ipsum nisi atque laudantium ad architecto nam praesentium voluptatibus? Obcaecati
+            quisquam delectus praesentium voluptates nemo! Sapiente enim atque illo nisi quam nemo laborum quibusdam
+            expedita nostrum maiores!
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footerDown">
+    <p>&copy; 2024 Infovue Solutions</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (Popper included) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
